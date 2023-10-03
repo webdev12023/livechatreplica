@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsible.css">
+  <link rel="icon" href="liveChat-logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>LiveChat</title>
+</head>
+
+<body>
+  <div class="top-nav">
+    <p>See other products</p>
+    <div id="pro1">
+      <i class="fa-brands fa-rocketchat" id="first"></i>
+      <h5>ChatBot</h5>
+      <p>-Automate customer service with AI</p>
+    </div>
+    <div id="pro1">
+      <i class="fa-regular fa-square-check" id="sec"></i>
+      <h5>ChatBot</h5>
+      <p>-Automate customer service with AI</p>
+    </div>
+    <div id="pro1">
+      <i class="fa-solid fa-book-open-reader" id="third"></i>
+      <h5>ChatBot</h5>
+      <p>-Automate customer service with AI</p>
+    </div>
+  </div>
+  </div>
+  <div class="navbar">
+    <div id="logo">
+      <img src="livechat-logo.svg" alt="">
+    </div>
+    <div class="cnt">
+      <div class="dropdown">
+        <button>Procuct &#x25BE;</button>
+        <div class="dropdown-options">
+          <a href="#">Benefits</a>
+          <a href="#">Product Tour</a>
+          <a href="#">Use Cases</a>
+          <a href="#">App</a>
+          <a href="#">Features</a>
+          <a href="#">Resources</a>
+          <a href="#">News</a>
+        </div>
+      </div>
+      <button> <a href="Pricing">Pricing</a></button>
+      <button> <a href="Marketplace">Marketplace</a></button>
+      <div class="dropdown">
+        <button>Customers &#x25BE;</button>
+        <div class="dropdown-options">
+          <a href="#">Our Customers</a>
+          <a href="#">Case Studies</a>
+          <a href="#">Customers Review</a>
+          <a href="#">Industries</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button>Support &#x25BE;</button>
+        <div class="dropdown-options">
+          <a href="#">Help <Center></Center></a>
+          <a href="#">Webinar</a>
+          <a href="#">Partners Marketplace</a>
+          <a href="#">Professional Services</a>
+          <a href="#">API & Developers</a>
+          <a href="#">System Status</a>
+        </div>
+      </div>
+    </div>
+    <button id="live-chat">Try LiveChat</button>
+  </div>
+  <!-- ---------------Main----------------->
+
+  <div class="main">
+    <div id="fb">
+      <a href="">
+        <i class="fa-brands fa-facebook"></i>Continue with Facbook
+      </a>
+    </div>
+    <div class="container">
+      <div class="heading">
+        <p>TYPING TEST</p>
+        <h2>
+          Test your typing skill
+        </h2>
+      </div>
+      <div class="header">
+        <div class="timer">
+          <div class="curr_time">60s</div>
+          <div class="header_text">Time</div>
+        </div>
+        <div class="accuracy">
+          <div class="curr_accuracy">100</div>
+          <div class="header_text">% Accuracy</div>
+        </div>
+        <div class="wpm">
+          <div class="curr_wpm">100</div>
+          <div class="header_text">Word/Min</div>
+        </div>
+        <div class="cpm">
+          <div class="curr_cpm">100</div>
+          <div class="header_text">Click/Min</div>
+        </div>
+        <div class="errors">
+          <div class="curr_errors">0</div>
+          <div class="header_text">Errors</div>
+
+        </div>
+      </div>
+      <div class="quote">
+        Click on the area below to start the game.
+      </div>
+      <textarea class="input_area" placeholder="start typing here..." oninput="processCurrentText()"
+        onfocus="startGame()">
+            </textarea>
+      <button class="restart_btn" onclick="resetValues()">
+        Restart
+      </button>
+    </div>
+  </div>
+  <!-- ------------section--------- -->
+  <section>
+    <div class="text">
+      <h3>success</h3>
+      <p>By LiveChat</p>
+    </div>
+    <div class="caption">
+      <h3>
+        How to type faster? Typing spped test for customers Support
+      </h3>
+    </div>
+    <iframe id="tut" src="https://www.youtube.com/embed/Uakt6desEt8?si=8e9oU6MEaGzRrCpL" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </section>
+  <!-- -----------------live section------- -->
+  <div class="live-section">
+    <div class="live">
+      <h2>
+        What’s LiveChat?
+      </h2>
+      <p>
+        Take the LiveChat tour and discover new ways to grow your business and increase customer satisfaction.
+      </p>
+      <button id="go"> Go to LiveChat Tour</button>
+    </div>
+    <div class="img">
+      <img src="tour-animation.png" alt="">
+    </div>
+  </div>
+  <!-- ------------------help section----- -->
+  <div class="help-section">
+
+    <div id="top">
+      <svg width="1440" height="36" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg"
+        style="width: 100%; height: auto;">
+        <rect width="100%" height="100%" fill="#F6F6F7"></rect>
+        <path
+          d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z"
+          fill="#1B1B20"></path>
+      </svg>
+    </div>
+    <div id="text-help">
+      <h3><i class="fa-regular fa-square-check"></i><a href=""> HelpDesk | LearnSpace</a></h3>
+      <h2>Universe of great insights</h2>
+      <p>Typing skills? Check. Take the next step and make your online communication outstanding.</p>
+    </div>
+    <div id="text-box">
+      <div class="box">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h2>Course</h2>
+        <p>In-depth knowledge that's easy to apply</p>
+        <button id="link">Check courses &#11166; </button>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h2>Guide</h2>
+        <p>Quick study with comprehensive one-pagers</p>
+        <button id="link">Browse guides &#11166; </button>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h2>Email Templates</h2>
+        <p>Task-oriented cheat sheets</p>
+        <button id="link">See templates &#11166; </button>
+      </div>
+    </div>
+    <div id="visit">
+      <button>Visit Learning Space</button>
+    </div>
+    <div id="bottom">
+      <svg width="1440" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg"
+        style="width: 100%; height: auto;">
+        <rect width="100%" height="240vh" fill="#1B1B20"></rect>
+        <path
+          d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z"
+          fill="#fff"></path>
+      </svg>
+    </div>
+  </div>
+  <div class="trial-section">
+    <div class="trial">
+      <div id="start">
+        <h3>
+          Start your free LiveChat trial now!
+        </h3>
+        <p> Delight your customers. Fuel your sales.</p>
+        <div id="mail">
+          <input type="email" placeholder="Enter your email" id="email">
+          <button id="sign">Sign up free</button>
+        </div>
+      </div>
+      <div class="trial-img">
+        <img src="livechat.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- -----------------products---------- -->
+  <div class="products">
+    <h2>Discover our other products</h2>
+    <div class="pro-box">
+      <div class="pro">
+        <div id="pro-img">
+          <i class="fa-brands fa-rocketchat" id="first"></i>
+        </div>
+        <div id="pro-text">
+          <h5>ChatBot</h5>
+          <p>Automate customer service with AI</p>
+        </div>
+      </div>
+      <div class="pro">
+        <div id="pro-img">
+          <i class="fa-regular fa-square-check" id="sec"></i>
+        </div>
+        <div id="pro-text">
+          <h5>HelpDesk</h5>
+          <p>Support customers by tickets</p>
+        </div>
+      </div>
+      <div class="pro">
+        <div id="pro-img">
+          <i class="fa-solid fa-book-open-reader" id="third"></i>
+        </div>
+        <div id="pro-text">
+          <h5>knowledgeBase</h5>
+          <p>Guide educate customers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------foooter--------- -->
+  <div class="footer">
+    <div id="first-list">
+      <div id="first-link">
+        <a href=""><h3>Get LiveChat App</h3></a>
+      <h4>products</h4>
+      </div>
+      <li>Pricing</li>
+      <li>LiveChat Benefits</li>
+      <li>Tour</li>
+      <li>Featurs</li>
+      <li>Uses Cases</li>
+      <li>App</li>
+      <li>Marketplace</li>
+      <li>News</li>
+    </div>
+    <div id="sec-list">
+      <div id="sec-link">
+        <a href=""><i class="fa-solid fa-globe"></i>
+          <h3>Web Browser</h3>
+        </a>
+      </div>
+      <h4>Customers</h4>
+      <li>Customers</li>
+      <li>Case Studies</li>
+      <li>Industries</li>
+    </div>
+    <div id="third-list">
+      <div id="third-link">
+        <a href=""><i class="fa-brands fa-windows"></i>
+          <h3>Windows</h3>
+        </a>
+      </div>
+      <h4>Resources</h4>
+      <li>Success by LiveChat</li>
+      <li>Customer Service Guide</li>
+      <li>NEws letter</li>
+      <li>Report</li>
+      <li>Benchmark</li>
+      <li>Typing Speed Test</li>
+      <li>UTM Builder</li>
+      <li>Customer Service Report</li>
+    </div>
+    <div id="four-list">
+      <div id="four-link">
+        <a href=""><i class="fa-brands fa-apple"></i>
+          <h3>macOS</h3>
+        </a>
+      </div>
+      <h4>Support</h4>
+      <li>Help Center </li>
+      <li>Webinar</li>
+      <li>PArtners Marketplace</li>
+      <li>Professional Service</li>
+      <li>API & Developer</li>
+      <li>System Status</li>
+    </div>
+    <div id="fifth-list">
+      <div id="fifth-link">
+        <a href=""><i class="fa-brands fa-android"></i>
+          <h3>Android</h3>
+        </a>
+      </div>
+      <h4>Legal</h4>
+      <li>Terms Of Use</li>
+      <li>Privacy Policy</li>
+      <li>Security</li>
+      <li>GDPR</li>
+  
+    </div>
+  </div>
+  <script src="navbar.js"></script>
+</body>
+
+</html>
